@@ -39,7 +39,7 @@ module.exports = {
 
    
       const currentTime = datetime.split(' ')[1]; 
-      const message = `饾棫饾棞饾棤饾棙饾棴饾棦饾棥饾棙 饾棦饾棛: ${timezone}\n饾棖饾棬饾棩饾棩饾棙饾棥饾棫 饾棫饾棞饾棤饾棙: ${currentTime}\n饾棳饾棙饾棓饾棩:${year}\n饾棤饾棦饾棥饾棫饾棝:${month}\n饾棗饾棓饾棳: ${day_of_week}`;
+      const message = `𝗧𝗜𝗠𝗘𝗭𝗢𝗡𝗘 𝗢𝗙: ${timezone}\n𝗖𝗨𝗥𝗥𝗘𝗡𝗧 𝗧𝗜𝗠𝗘: ${currentTime}\n𝗬𝗘𝗔𝗥:${year}\n𝗠𝗢𝗡𝗧𝗛:${month}\n𝗗𝗔𝗬: ${day_of_week}`;
       api.sendMessage(message, event.threadID, event.messageID);
     } catch (error) {
  
