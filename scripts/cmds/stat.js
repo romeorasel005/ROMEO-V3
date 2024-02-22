@@ -3,7 +3,7 @@ const { getStreamFromURL } = require("fb-watchman");
 module.exports = {
   config: {
     name: "stats",
-    aliases: ["stat", "time"],
+    aliases: ["stat"],
     version: "1.0",
     author: "OtinXSandip",
     role: 0,
