@@ -1,5 +1,5 @@
 const axios = require('axios');
-const badWords = ["km","loke","pussy","dick","niveau","porn","non","u","","🔞","👅","🫦","💋","🔥","🤒","🥵","🤭","puti","lado","h","k","suck","puti","dickless","kera","banana","🍌","hot","yuri","like","🩸","🤤","cucumber","🖕"];
+const badWords = ["loke","pussy","dick","niveau","porn","non","🔞","👅","🫦","💋","🔥","🤒","🥵","🤭","puti","lado","suck","puti","dickless","kera","banana","🍌","hot","yuri","🩸","🤤","cucumber","🖕"];
 
 module.exports = {
  config: {
